@@ -24,6 +24,8 @@ void ofApp::setup(){
 
 
 void ofApp::update(){
+    
+    rotation += rotationSteps;
 
 }
 
