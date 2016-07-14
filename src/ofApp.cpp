@@ -31,6 +31,8 @@ void ofApp::update(){
 
 
 void ofApp::draw(){
+    
+    ofSetTranlate(ofGetWidth()/2, ofGetHeight()/2, 0);
 
 }
 
