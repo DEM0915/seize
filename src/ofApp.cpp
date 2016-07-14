@@ -1,6 +1,24 @@
 #include "ofApp.h"
 
+int nrOfCircle = 1;
+float rotation = 0;
+float rotationSteps = 0.01;
+float lastSwitch;
+bool closing;
+bool opening;
+
 void ofApp::setup(){
+    
+    ofBackground(0, 0, 0, 253);
+    ofSetFrameRate(60);
+    ofSetVerticalSync(false);
+    lastSwitch = ofGetElapsedTimef();
+    
+    closing = false;
+    opening = true;
+    rotationSteps = 0.4;
+    
+    
 
 }
 
