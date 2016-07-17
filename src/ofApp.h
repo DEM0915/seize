@@ -8,6 +8,7 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+<<<<<<< HEAD
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -20,5 +21,11 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+=======
+    
+        int snapCounter;
+        float scale;
+
+>>>>>>> origin/master
 		
 };

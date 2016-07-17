@@ -55,6 +55,7 @@ void ofApp::mouseExited(int x, int y){
 
 }
 
+<<<<<<< HEAD
 //--------------------------------------------------------------
 void ofApp::windowResized(int w, int h){
 
@@ -69,3 +70,7 @@ void ofApp::gotMessage(ofMessage msg){
 void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
 }
+=======
+
+
+>>>>>>> origin/master
